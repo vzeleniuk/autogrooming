@@ -59,6 +59,10 @@ body {
   margin-right: .75rem;
   margin-left: .75rem;
 }
+.marketing p {
+  padding-left: 20px;
+  padding-right: 20px;
+}
 
 
 /* Featurettes
