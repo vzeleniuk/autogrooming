@@ -1,0 +1,50 @@
+html {
+    background: url(../images/cadillac.jpg) no-repeat center center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    height: 100%;
+}
+
+.body {
+    overflow-x: hidden;
+}
+
+.table-cover {
+    margin: 10px;
+    min-width: 400px;
+}
+
+.table-cover tr {
+    height: 50px;
+}
+
+.table-container {
+    position: absolute;
+    left: auto;
+    right: auto;
+    margin-top: 80px;
+    background-color: #e4e5e6;
+    border-radius: 2%;
+
+}
+
+.form-container {
+    position: absolute;
+    margin-top: 80px;
+    background-color: #e4e5e6;
+    border-radius: 2%;
+    padding: 1.5rem;
+    margin-right: 0;
+    margin-left: 0;
+    border-width: .2rem;
+    min-width: 400px;
+
+
+}
+
+#googleMap {
+    position: relative;
+    padding: 10px;
+}
