@@ -13,13 +13,24 @@ body {
 
 /* Carousel base class */
 .carousel {
-  margin-bottom: 4rem;
+  margin-bottom: 2rem;
 }
 /* Since positioning the image, we need to help out the caption */
 .carousel-caption {
-  bottom: 3rem;
+  position: absolute;
+  margin: auto;
+  width: 70%;
+  left: 15%;
+  right: 15%;
   z-index: 10;
+  color: #fff;
+  text-align: center;
+  text-transform: uppercase;
+  font-weight: 600;
+  top: calc(50% - 3.5vw);
+
 }
+.carousel-caption h1 {font-size: 7vw;}
 
 /* Declare heights because of positioning of img element */
 .carousel-item {

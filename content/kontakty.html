@@ -15,6 +15,7 @@
     <!-- Custom styles for this template -->
     <link href="../css/kontakty_custom.css" rel="stylesheet">
 
+
     <!-- Icons Library-->
       <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.1.0/css/all.css" integrity="sha384-lKuwvrZot6UHsBSfcMvOkWwlCMgc0TaWr+30HWe3a4ltaBwTZhyTEggF5tJv8tbt" crossorigin="anonymous">
   </head>
@@ -61,7 +62,7 @@
 
     <div class="container">
         <div class="row">
-            <div class="col-xs-12 col-sm-6 justify-content-center">
+            <div class="col-sm-12 col-md-6">
     <div class="table-container">
     <table class="table-cover">
         <tbody>
@@ -106,14 +107,17 @@
             <td>м. Чернівці, вул. Головна, 283</td>
         </tr>
         <tr>
-            <td colspan="2"><div id="googleMap"></div>
+            <td colspan="2">
+                <div class="gmap-container">
+                <div class="gmap" id="googleMap"></div>
+                </div>
             </td>
         </tr>
         </tbody>
     </table>
     </div>
             </div>
-           <!-- <div class="col-xs-12 col-sm-6 justify-content-center">
+          <div class="col-sm-12 col-md-6">
             <form class="form-container" action="../form_handler.php" method="post" name="contact_form">
                     <h3>Залиште нам відгук</h3>
                     <div class="form-group">
@@ -125,11 +129,11 @@
                     </div>
                     <div class="form-group">
                         <label for="formControlTextarea">Відгук</label>
-                        <textarea class="form-control" name="message" id="formControlTextarea" rows="3"></textarea>
+                        <textarea class="form-control" name="message" id="formControlTextarea" rows="6"></textarea>
                     </div>
                     <button type="submit" class="btn btn-outline-secondary float-right">Надіслати</button>
                 </form>
-            </div> -->
+            </div>
         </div>
     </div>
 

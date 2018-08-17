@@ -16,7 +16,13 @@
     <!-- Icons Library-->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <!--Fancybox-->
-      <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/fancybox/3.3.5/jquery.fancybox.min.css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/fancybox/3.3.5/jquery.fancybox.min.css" />
+    <link href="../../css/fancybox/core.css">
+    <link href="../../css/fancybox/fullscreen.css">
+    <link href="../../css/fancybox/share.css">
+    <link href="../../css/fancybox/slideshow.css">
+    <link href="../../css/fancybox/thumbs.css">
+
 
   </head>
 
@@ -76,16 +82,10 @@
           <div class="row">
             <div class="col-md-4">
               <div class="card mb-4 box-shadow">
-                <a class="fancybox" rel="group1" href="../../images/album1/concept1.jpg"><img class="card-img-top img-fluid" src="../../images/album1/concept1.jpg" data-src="../../js/holder.js/100px225?theme=thumb&amp;bg=55595c&amp;fg=eceeef&amp;text=Thumbnail" alt="Thumbnail [100%x225]" data-holder-rendered="true"/></a>
-                <a class="fancybox" rel="group1" href="../../images/album1/concept2.jpg" style="display: none;"><img src="../../images/album1/concept2.jpg" alt="Хімчистка"/></a>
-                <a class="fancybox" rel="group1" href="../../images/album1/concept3.jpg" style="display: none;"><img src="../../images/album1/concept3.jpg" alt="Хімчистка"/></a>
-                <a class="fancybox" rel="group1" href="../../images/album1/concept4.jpg" style="display: none;"><img src="../../images/album1/concept4.jpg" alt="Хімчистка"/></a>
-                <!-- <a class="fancybox" rel="group1" href="https://www.youtube.com/watch?v=_sI_Ps7JSEk" style="display: none;">
-                  <video width="640" height="320" controls id="myVideo" preload="metadata" style="display:none;">
-                  <source src="https://www.youtube.com/watch?v=_sI_Ps7JSEk" type="video/mp4">
-                  Your browser doesn't support HTML5 video tag.
-                </video>
-                </a> -->
+                <a class="fancybox" data-fancybox="gallery" rel="album-1" href="../../images/album1/concept1.jpg"><img class="card-img-top img-fluid" src="../../images/album1/concept1.jpg" data-src="../../js/holder.js/100px225?theme=thumb&amp;bg=55595c&amp;fg=eceeef&amp;text=Thumbnail" alt="Thumbnail [100%x225]" data-holder-rendered="true"/></a>
+                <a class="fancybox" data-fancybox="gallery" rel="album-1" href="../../images/album1/concept2.jpg" style="display: none;"><img src="../../images/album1/concept2.jpg" alt="Хімчистка"/></a>
+                <a class="fancybox" data-fancybox="gallery" rel="album-1" href="../../images/album1/concept3.jpg" style="display: none;"><img src="../../images/album1/concept3.jpg" alt="Хімчистка"/></a>
+                <a class="fancybox" data-fancybox="gallery" rel="album-1" href="../../images/album1/concept4.jpg" style="display: none;"><img src="../../images/album1/concept4.jpg" alt="Хімчистка"/></a>
                 <div class="card-body">
                   <p class="card-text">Вражаюча різниця між "до" та "після" хімчистки</p>
 
@@ -95,23 +95,23 @@
 
 
             <div class="col-md-4">
-              <div class="card mb-4 box-shadow">
-                <a class="fancybox" rel="group2" href="../../images/album2/pontiac.jpg"><img class="card-img-top img-fluid" src="../../images/album2/pontiac.jpg" data-src="../../js/holder.js/100px225?theme=thumb&amp;bg=55595c&amp;fg=eceeef&amp;text=Thumbnail" alt="Thumbnail [100%x225]" data-holder-rendered="true" /></a>
-                <a class="fancybox" rel="group2" href="../../images/album2/chevy.jpg" style="display: none;"><img src="../../images/album2/chevy.jpg" alt="Полірування кузова авто"/></a>
-                <a class="fancybox" rel="group2" href="../../images/album2/cuda.jpg" style="display: none;"><img src="../../images/album2/cuda.jpg" alt="Полірування кузова авто"/></a>
-                <a class="fancybox" rel="group2" href="../../images/album2/fury.jpg" style="display: none;"><img src="../../images/album2/fury.jpg" alt="Полірування кузова авто"/></a>
+              <div class="card mb-4 box-shadow" >
+                <a class="fancybox" data-fancybox="gallery1" rel="album-2" href="../../images/album2/pontiac.jpg"><img class="card-img-top img-fluid" src="../../images/album2/pontiac.jpg" data-src="../../js/holder.js/100px225?theme=thumb&amp;bg=55595c&amp;fg=eceeef&amp;text=Thumbnail" alt="Thumbnail [100%x225]" data-holder-rendered="true" /></a>
+                <a class="fancybox" data-fancybox="gallery1" rel="album-2" href="../../images/album2/chevy.jpg" style="display: none;"><img src="../../images/album2/chevy.jpg" alt="Полірування кузова авто"/></a>
+                <a class="fancybox" data-fancybox="gallery1" rel="album-2" href="../../images/album2/cuda.jpg" style="display: none;"><img src="../../images/album2/cuda.jpg" alt="Полірування кузова авто"/></a>
+                <a class="fancybox" data-fancybox="gallery1" rel="album-2" href="../../images/album2/fury.jpg" style="display: none;"><img src="../../images/album2/fury.jpg" alt="Полірування кузова авто"/></a>
                 <div class="card-body">
-                  <p class="card-text">Відполірований кузов автомобіля <br> </p>
+                  <p class="card-text">Відполірований кузов автомобіля </p>
 
                 </div>
               </div>
             </div>
             <div class="col-md-4">
               <div class="card mb-4 box-shadow">
-                <a class="fancybox" rel="group3" href="../../images/album3/barracuda.jpg"><img class="card-img-top img-fluid" src="../../images/album3/barracuda.jpg" data-src="../../js/holder.js/100px225?theme=thumb&amp;bg=55595c&amp;fg=eceeef&amp;text=Thumbnail" alt="Thumbnail [100%x225]" data-holder-rendered="true" /></a>
-                <a class="fancybox" rel="group3" href="../../images/album3/corvette.jpg" style="display: none;"><img src="../../images/album3/corvette.jpg" alt="Захисні покриття"/></a>
-                <a class="fancybox" rel="group3" href="../../images/album3/cuda.jpg" style="display: none;"><img src="../../images/album3/cuda.jpg" alt="Захисні покриття"/></a>
-                <a class="fancybox" rel="group3" href="../../images/album3/impala.jpg" style="display: none;"><img src="../../images/album3/impala.jpg" alt="Захисні покриття"/></a>
+                <a class="fancybox" data-fancybox="gallery2" rel="album-3" href="../../images/album3/barracuda.jpg"><img class="card-img-top img-fluid" src="../../images/album3/barracuda.jpg" data-src="../../js/holder.js/100px225?theme=thumb&amp;bg=55595c&amp;fg=eceeef&amp;text=Thumbnail" alt="Thumbnail [100%x225]" data-holder-rendered="true" /></a>
+                <a class="fancybox" data-fancybox="gallery2" rel="album-3" href="../../images/album3/corvette.jpg" style="display: none;"><img src="../../images/album3/corvette.jpg" alt="Захисні покриття"/></a>
+                <a class="fancybox" data-fancybox="gallery2" rel="album-3" href="../../images/album3/cuda.jpg" style="display: none;"><img src="../../images/album3/cuda.jpg" alt="Захисні покриття"/></a>
+                <a class="fancybox" data-fancybox="gallery2" rel="album-3" href="../../images/album3/impala.jpg" style="display: none;"><img src="../../images/album3/impala.jpg" alt="Захисні покриття"/></a>
                 <div class="card-body">
                   <p class="card-text">Автомобіль із захисним покриттям<br> </p>
 
@@ -121,15 +121,15 @@
 
             <div class="col-md-4">
               <div class="card mb-4 box-shadow">
-                <a class="fancybox" rel="group4" data-width="640" data-height="360" href="https://www.youtube.com/watch?v=OjQavIEiWlM">
-                  <img class="card-img-top img-fluid" data-src="" alt="Thumbnail [100%x225]" src="../../images/Cadillac.jpg" data-holder-rendered="true" >
+                <a class="fancybox" data-fancybox="gallery3" rel="album-4" href="https://www.youtube.com/watch?v=CoHTK5REZaQ">
+                  <img class="card-img-top img-fluid" src="https://img.youtube.com/vi/CoHTK5REZaQ/hqdefault.jpg" data-src="../../js/holder.js/100px225?theme=thumb&amp;bg=55595c&amp;fg=eceeef&amp;text=Thumbnail" alt="Thumbnail [100%x225]" data-holder-rendered="true" >
                 </a>
-                <a class="fancybox" rel="group4" data-fancybox href="https://www.youtube.com/watch?v=OjQavIEiWlM" style="display: none;"></a>
                 <div class="card-body">
                   <p class="card-text">Захисні покриття у динаміці<br> </p>
                 </div>
               </div>
             </div>
+
             <div class="col-md-4">
               <div class="card mb-4 box-shadow">
                 <img class="card-img-top" data-src="../../holder.js/100px225?theme=thumb&amp;bg=55595c&amp;fg=eceeef&amp;text=Thumbnail" alt="Thumbnail [100%x225]" src="data:image/svg+xml;charset=UTF-8,%3Csvg%20width%3D%22288%22%20height%3D%22226%22%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20viewBox%3D%220%200%20288%20226%22%20preserveAspectRatio%3D%22none%22%3E%3Cdefs%3E%3Cstyle%20type%3D%22text%2Fcss%22%3E%23holder_1641e8afe30%20text%20%7B%20fill%3A%23eceeef%3Bfont-weight%3Abold%3Bfont-family%3AArial%2C%20Helvetica%2C%20Open%20Sans%2C%20sans-serif%2C%20monospace%3Bfont-size%3A14pt%20%7D%20%3C%2Fstyle%3E%3C%2Fdefs%3E%3Cg%20id%3D%22holder_1641e8afe30%22%3E%3Crect%20width%3D%22288%22%20height%3D%22226%22%20fill%3D%22%2355595c%22%3E%3C%2Frect%3E%3Cg%3E%3Ctext%20x%3D%2296.828125%22%20y%3D%22119.2390625%22%3EThumbnail%3C%2Ftext%3E%3C%2Fg%3E%3C%2Fg%3E%3C%2Fsvg%3E" data-holder-rendered="true" >
@@ -207,24 +207,35 @@
     <script src="../../js/bootstrap.js"></script>
     <script src="../../js/holder.js"></script>
     <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/fancybox/3.3.5/jquery.fancybox.min.js"></script>
+    <script src="../../js/fancybox/core.js"></script>
+    <script src="../../js/fancybox/fullscreen.js"></script>
+    <script src="../../js/fancybox/guestures.js"></script>
+    <script src="../../js/fancybox/hash.js"></script>
+    <script src="../../js/fancybox/media.js"></script>
+    <script src="../../js/fancybox/share.js"></script>
+    <script src="../../js/fancybox/slideshow.js"></script>
+    <script src="../../js/fancybox/thumbs.js"></script>
+    <script src="../../js/fancybox/wheel.js"></script>
 
 <script>
     $(document).ready(function() {
 
-        $("a.fancybox").fancybox({
-            'transitionIn'	:	'elastic',
-            'transitionOut'	:	'elastic',
-            'transitionEffect': 'elastic',
-            'speedIn'		:	600,
-            'speedOut'		:	200,
-            'overlayShow'	:	false,
-            'cyclic' : true,
-            'touch': true
-
+        $(".fancybox").fancybox({
+            transitionIn:	'elastic',
+            transitionOut:	'elastic',
+            transitionEffect: 'elastic',
+            speedIn:	600,
+            speedOut:	200,
+            overlayShow:	false,
+            cyclic:   true,
+            buttons:   ["zoom", "share", "slideShow", "fullScreen", "thumbs", "close"]
         });
 
 
+
     });
+
+
 </script>
   </body>
 </html>

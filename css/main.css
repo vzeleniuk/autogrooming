@@ -4369,8 +4369,8 @@ input[type="button"].btn-block {
 .card-body {
   -ms-flex: 1 1 auto;
   flex: 1 1 auto;
-  padding: 1.25rem;
-  min-height: 124px;
+  padding: 0.75rem;
+  min-height: 72px;
 }
 
 .card-title {
@@ -4563,7 +4563,7 @@ input[type="button"].btn-block {
 
 @media (max-width: 576px) {
   .card {
-    padding: 20px;
+    margin: 15px;
   }
 }
 
@@ -5784,6 +5784,7 @@ button.close {
   width: 100%;
   overflow: hidden;
   background-color: #343a40;
+  max-height: 400px;
 }
 
 .carousel-item {
@@ -6002,21 +6003,8 @@ button.close {
   background-color: #fff;
 }
 
-.carousel-caption {
-  position: absolute;
-  right: 15%;
-  bottom: 20px;
-  left: 15%;
-  z-index: 10;
-  padding-top: 20px;
-  padding-bottom: 20px;
-  color: #fff;
-  text-align: center;
-  text-transform: uppercase;
-  font-weight: 600;
-  top: calc(50% - 48px);
-}
-.carousel-caption h1 {font-size: 8vw;}
+
+
 
 .align-baseline {
   vertical-align: baseline !important;
