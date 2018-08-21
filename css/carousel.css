@@ -17,18 +17,6 @@ body {
 }
 /* Since positioning the image, we need to help out the caption */
 .carousel-caption {
-  position: absolute;
-  margin: auto;
-  width: 70%;
-  left: 15%;
-  right: 15%;
-  z-index: 10;
-  color: #fff;
-  text-align: center;
-  text-transform: uppercase;
-  font-weight: 600;
-  top: calc(50% - 3.5vw);
-
 }
 .carousel-caption h1 {font-size: 7vw;}
 
@@ -43,6 +31,16 @@ body {
   margin-left: auto;
   margin-right: auto;
   height: 32rem;
+}
+
+.carousel-logo {
+  position: absolute;
+  margin: auto;
+  width: 70%;
+  left: 15%;
+  right: 15%;
+  top: calc(50% - 4vw);
+  z-index: 10;
 }
 
 @media (max-width: 700px) {
@@ -78,10 +76,10 @@ body {
 
 /* Featurettes
 ------------------------- */
-.row.featurette {
+/* .row.featurette {
   margin-top: -32px;
   margin-bottom: -32px;
-}
+} */
 
 .featurette-divider {
   margin: 2rem 0; /* Space out the Bootstrap <hr> more */

@@ -27,9 +27,14 @@
   max-width: 40rem;
 }
 
+.jumbotron-album {
+  color:ghostwhite;
+  background: linear-gradient(0deg,rgba(52,58,64,0.5),rgba(52,58,64,0.5)), url(../images/black.jpg) center center no-repeat;
+  background-size:cover;
+}
 
 footer p {
-  margin-bottom: .25rem;
+
 }
 
 .box-shadow { box-shadow: 0 .25rem .75rem rgba(0, 0, 0, .05); }

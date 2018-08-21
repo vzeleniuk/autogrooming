@@ -25,7 +25,7 @@
     <header>
       <nav class="navbar navbar-expand-md navbar-dark fixed-top bg-dark">
         <a class="navbar-brand" href="index.html">
-          <img src="images/favicon.png" width="30" height="30" class="d-inline-block align-top" alt="Auto Grooming">
+          <img src="images/favicon.png" width="30px" height="30px" class="d-inline-block align-top" alt="Auto Grooming">
           Auto Grooming
         </a>
         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarCollapse" aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation">
@@ -71,14 +71,14 @@
         <div class="carousel-inner">
           <div class="container">
             <div class="carousel-caption">
-              <h1>Auto Grooming</h1>
+              <img class="carousel-logo" src="images/ico/autogroom_white.png">
             </div>
           </div>
-          <div class="carousel-item active" style="background-image: linear-gradient(0deg,rgba(52,58,64,0.4),rgba(52,58,64,0.4)), url(images/bmw.jpg); background-size:100% auto; background-position:center center;">
+          <div class="carousel-item active" style="background-image: linear-gradient(0deg,rgba(52,58,64,0.6),rgba(52,58,64,0.6)), url(images/bmw.jpg); background-size:100% auto; background-position:center center;">
           </div>
-          <div class="carousel-item" style="background-image: linear-gradient(0deg,rgba(52,58,64,0.4),rgba(52,58,64,0.4)), url(images/porsche.jpg); background-size:100% auto; background-position:center center;">
+          <div class="carousel-item" style="background-image: linear-gradient(0deg,rgba(52,58,64,0.6),rgba(52,58,64,0.6)), url(images/porsche.jpg); background-size:100% auto; background-position:center center;">
           </div>
-          <div class="carousel-item" style="background-image:linear-gradient(0deg,rgba(52,58,64,0.4),rgba(52,58,64,0.4)), url(images/mercedes.jpg); background-size:100% auto; background-position:center center;">
+          <div class="carousel-item" style="background-image: linear-gradient(0deg,rgba(52,58,64,0.6),rgba(52,58,64,0.6)), url(images/mercedes.jpg); background-size:100% auto; background-position:center center;">
           </div>
         </div>
         <a class="carousel-control-prev" href="#myCarousel" role="button" data-slide="prev">
@@ -106,7 +106,10 @@
 			 Grooming (з англійської - догляд за зовнішністю) трактується як гігієнічний догляд за тваринами, чищення та процес покращення вигляду тварини для показових виступів та змагань. Звісно, грумінг можна асоціювати із доглядом за нашими сталевими конячками - автомобілями та мотоциклами: як грумери готують породистих собак і коней до змагань, так і ми виконуємо комплекс високотехнологічних операцій по ретельному і повному догляду за автомобілем, готуючи його до показових поїздок центральними вулицями міст.</p>
             <p><a class="btn btn-secondary" href="content/komanda.html" role="button">Більше про нас</a></p>
         </div><!-- /.row -->
-		
+
+        <hr class="featurette-divider">
+        <h1 class="text-center" style="margin: 2rem 0">Наші послуги:</h1>
+
         <!-- START THE FEATURETTES -->
 
         <hr class="featurette-divider">
@@ -147,74 +150,121 @@
 
         <hr class="featurette-divider">
 
+        <div class="row featurette">
+          <div class="col-md-7 order-md-2">
+            <h2 class="featurette-heading">Захист інтер'єру</h2>
+            <p class="lead">За допомогою нанопокриттів подовжуємо служіння шкіряних, тканних, пластмасових та гумових покриттів салону.</p>
+          </div>
+          <div class="col-md-5 order-md-1">
+            <img class="featurette-image img-fluid mx-auto" data-src="js/holder.js/500x500/auto" alt="500x500" src="images/leather.jpg" data-holder-rendered="true">
+          </div>
+        </div>
+
+
+
+        <hr class="featurette-divider">
+
         <!-- /END THE FEATURETTES -->
       </div><!-- /.container -->
 
             <!-- /Partners Section -->
 
-      <h2 class="text-center" style="margin-bottom: 30px">Наші партнери:</h2>
+      <h2 class="text-center" style="margin-bottom: 2rem">Засоби для професійного детейлінгу, які ми використовуємо:</h2>
 
-      <div class="container">
-        <div class="row" style="margin-bottom: 20px">
+      <!-- /Partners Section (Cards)-->
+      <div class="container" id="cards-row">
+        <div class="row" style="margin-bottom: 1.5rem">
           <div class="card-deck">
             <div class="card hover-shadow">
               <a href="http://www.rupes.com.ua/" target="_blank">
-                <img class="card-img-top" src="images/partners/rupes.png" alt="Rupes" style="width: 100%; height: auto; background-color: white;">
+                <img class="card-img-top card-img-partner-logo" src="images/partners/rupes.png" data-src="js/holder.js/100px200/" alt="Rupes">
               </a>
               <div class="card-body">
                 <h5 class="card-title">Rupes</h5>
                 <p class="card-text">Полірувальні машинки</p>
               </div>
+              <!-- <div class="card-footer">
+                <small class="text-muted">Виробник: Італія</small>
+              </div> -->
             </div>
             <div class="card hover-shadow">
               <a href="https://everglass.ru/" target="_blank">
-                <img class="card-img-top" src="images/partners/everglass.png" alt="Everglass" style="width: 100%; height: auto;  background-color: white;">
+                <img class="card-img-top card-img-partner-logo" src="images/partners/everglass.png" data-src="js/holder.js/100px200/" alt="Everglass">
               </a>
               <div class="card-body">
                 <h5 class="card-title">Everglass</h5>
                 <p class="card-text">Захисні нанопокриття</p>
               </div>
+              <!--  <div class="card-footer">
+                <small class="text-muted">Виробник: Росія</small>
+              </div>-->
             </div>
             <div class="card hover-shadow">
               <a href="https://www.chemicalguys.com/" target="_blank">
-                <img class="card-img-top" src="images/partners/chemicalguys.jpg" alt="Chemical guys" style="width: 100%; height: auto;  background-color: white;">
+                <img class="card-img-top card-img-partner-logo" src="images/partners/chemicalguys.jpg" data-src="js/holder.js/100px200/" alt="Chemical guys">
               </a>
               <div class="card-body">
                 <h5 class="card-title">Chemical guys</h5>
                 <p class="card-text">Аксесуари та засоби для хімчистки</p>
               </div>
+              <!--  <div class="card-footer">
+                <small class="text-muted">Виробник: США</small>
+              </div>-->
             </div>
             <div class="card hover-shadow">
-              <a href="http://www.rupes.com.ua/" target="_blank">
-                <img class="card-img-top" src="images/partners/rupes.png" alt="Rupes" style="width: 100%; height: auto; background-color: white;">
+              <a href="http://sgcbautocare.com/" target="_blank">
+                <img class="card-img-top card-img-partner-logo" src="images/partners/SGSB.png" data-src="js/holder.js/100px200/" alt="SGSB">
               </a>
               <div class="card-body">
-                <h5 class="card-title">Rupes</h5>
-                <p class="card-text">Полірувальні машинки</p>
+                <h5 class="card-title">SGSB</h5>
+                <p class="card-text">Засоби для полірування</p>
               </div>
+              <!--  <div class="card-footer">
+                <small class="text-muted">Виробник: Китай</small>
+              </div>-->
             </div>
             <div class="card hover-shadow">
-              <a href="http://www.rupes.com.ua/" target="_blank">
-                <img class="card-img-top" src="images/partners/rupes.png" alt="Rupes" style="width: 100%; height: auto; background-color: white;">
+              <a href="https://koch-chemie.com.ua/" target="_blank">
+                <img class="card-img-top card-img-partner-logo" src="images/partners/koch-chemie.png" data-src="js/holder.js/100px200/" alt="Koch Chemie">
               </a>
               <div class="card-body">
-                <h5 class="card-title">Rupes</h5>
-                <p class="card-text">Полірувальні машинки</p>
+                <h5 class="card-title">Koch Chemie</h5>
+                <p class="card-text">Засоби для очищення та догляду</p>
               </div>
+              <!-- <div class="card-footer">
+                <small class="text-muted">Виробник: Німеччина</small>
+              </div>-->
             </div>
             <div class="card hover-shadow">
-              <a href="http://www.rupes.com.ua/" target="_blank">
-                <img class="card-img-top" src="images/partners/rupes.png" alt="Rupes" style="width: 100%; height: auto; background-color: white;">
+              <a href="https://poorboysworld.com/" target="_blank">
+                <img class="card-img-top card-img-partner-logo" src="images/partners/poorboy.jpg" data-src="js/holder.js/100px200/" alt="Rupes">
               </a>
               <div class="card-body">
-                <h5 class="card-title">Rupes</h5>
-                <p class="card-text">Полірувальні машинки</p>
+                <h5 class="card-title">Poorboy's World</h5>
+                <p class="card-text">Засоби для очищення та догляду</p>
               </div>
+              <!--  <div class="card-footer">
+                <small class="text-muted">Виробник: США</small>
+              </div>-->
             </div>
           </div>
         </div>
       </div>
-
+      <!-- End of partners section (Cards)-->
+      <!-- /Partners Section (List)-->
+      <div class="container" id="list-row" style="display:none;">
+        <div class="row" style="margin-bottom: 1.5rem">
+      <div class="list-group">
+        <a href="http://www.rupes.com.ua/" class="list-group-item" target="_blank"><img src="images/partners/rupes.png">Rupes</a>
+        <a href="https://everglass.ru/" class="list-group-item" target="_blank"><img src="images/partners/everglass.png">Everglass</a>
+        <a href="https://www.chemicalguys.com/" class="list-group-item" target="_blank"><img src="images/partners/chemicalguys.jpg">Chemical Guys</a>
+        <a href="http://sgcbautocare.com/" class="list-group-item" target="_blank"><img src="images/partners/SGSB.png">SGCB</a>
+        <a href="https://koch-chemie.com.ua/" class="list-group-item" target="_blank"><img src="images/partners/koch-chemie.png">Koch Chemie </a>
+        <a href="https://poorboysworld.com/" class="list-group-item" target="_blank"><img src="images/partners/poorboy.jpg">Poorboy&#39;s World</a>
+      </div>
+        </div>
+      </div>
+          <!-- End of partners section (List)-->
 
       <!-- FOOTER -->
       <footer class="container">
@@ -245,6 +295,14 @@
     <script>window.jQuery || document.write('<script src="js/jquery-slim.min.js"><\/script>')</script>
     <script src="js/popper.min.js"></script>
     <script src="js/bootstrap.js"></script>
+      <script src="js/holder.js"></script>
+      <script>
+            if (screen.width < 668) {
+                $('#cards-row').css({display: 'none'});
+                $('#list-row').css('display', '');
+            }
+      </script>
+
    
   </body>
 </html>

@@ -4451,6 +4451,12 @@ input[type="button"].btn-block {
   border-top-right-radius: calc(0.25rem - 1px);
 }
 
+.card-img-partner-logo {
+  width: 100%;
+  height: auto;
+  background-color: white;
+}
+
 .card-img-bottom {
   width: 100%;
   border-bottom-right-radius: calc(0.25rem - 1px);
@@ -5784,7 +5790,7 @@ button.close {
   width: 100%;
   overflow: hidden;
   background-color: #343a40;
-  max-height: 400px;
+  max-height: 25rem;
 }
 
 .carousel-item {
@@ -7672,6 +7678,10 @@ button.bg-dark:focus {
   padding-bottom: 3rem !important;
 }
 
+  .py-6 {
+    padding-top: 3rem !important;
+  }
+
 .pl-5,
 .px-5 {
   padding-left: 3rem !important;
@@ -8986,7 +8996,7 @@ a.text-dark:hover, a.text-dark:focus {
   }
 }
 footer.container {
-  margin-bottom: 20px;
+  padding-bottom: 20px;
 }
 
 img.hover-shadow {
@@ -9000,6 +9010,18 @@ img.hover-shadow {
 .table td {
   text-align: center;
 }
+
+  #list-row {
+
+    margin: 0 15%;
+    font-size: 20px;
+  }
+
+  #list-row img{
+    height: 2rem;
+    width: auto;
+    padding-right: 0.5rem;
+  }
 /* Style all font awesome icons */
 .fa {
   padding: 10px;
