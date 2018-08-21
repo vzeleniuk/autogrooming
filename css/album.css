@@ -23,6 +23,11 @@
   font-weight: 300;
 }
 
+@media (max-width: 668px) {
+    .jumbotron-heading {
+        padding-top: 2rem;
+    }
+}
 .jumbotron .container {
   max-width: 40rem;
 }

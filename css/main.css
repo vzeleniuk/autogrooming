@@ -9011,17 +9011,18 @@ img.hover-shadow {
   text-align: center;
 }
 
-  #list-row {
-
-    margin: 0 15%;
+  #list-row .list-group {
+    margin-left: 15px;
+    margin-right: 15px;
     font-size: 20px;
   }
 
-  #list-row img{
+  #list-row img {
     height: 2rem;
     width: auto;
     padding-right: 0.5rem;
   }
+
 /* Style all font awesome icons */
 .fa {
   padding: 10px;
